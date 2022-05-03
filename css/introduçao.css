@@ -1,0 +1,46 @@
+.foto-perfil {
+  padding-left: -40px;
+  max-width: 250px;
+}
+
+.introduçao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}  
+
+.introduçao h1 {
+  font-size: 3rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+}
+
+.introduçao p {
+font-size: 1.5rem;
+color: #525252;
+}
+
+@media (max-width: 1180px) {
+  .introduçao h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .introduçao {
+    align-items: center;
+  }
+
+  .introduçao {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .foto-perfil {
+    max-width: 150px;
+  }
+}
