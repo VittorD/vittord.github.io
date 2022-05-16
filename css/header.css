@@ -41,11 +41,11 @@
 }
 
 main {
-  background-color: #b2f7278c;
+  /* background-color: #b2f7278c; */
   max-width: 100%;
-  padding: 50px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  /* padding: 50px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-items: center;
@@ -56,12 +56,11 @@ main {
   justify-content: center;
   /* align-items: center; */
   /* margin-left: 45px; */
-  /* max-width: 200px; */
+  max-width: 200px;
 }
 
 .introducao-texto {
   max-width: 60%;
-  /* margin-left: 75px; */
 }
 
 .introducao-texto-frase {
