@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Fira+Sans:wght@400;700 & family= Open+Sans:wght@800 & display=swap');
+
 @keyframes bounce {
 0%, 20%, 60%, 100% {
   -webkit-transform: translateY(0);
@@ -18,13 +20,11 @@
   align-items: center;
 }
 
-
 .header-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-
 
 .header-menu a {
   font-size: 1.125rem;
@@ -43,28 +43,36 @@
 main {
   /* background-color: #b2f7278c; */
   max-width: 100%;
-  /* padding: 50px; */
   margin-top: 50px;
   margin-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  justify-items: center;
+  justify-items: start;
   align-items: center;
+  gap: 7.5%;
 }
 
 .foto-perfil {
-  justify-content: center;
+  justify-self: center;
   /* align-items: center; */
-  /* margin-left: 45px; */
   max-width: 200px;
+  /* background-color: aqua; */
 }
 
 .introducao-texto {
-  max-width: 60%;
+  max-width: 80%;
+  /* background-color: aqua; */
 }
 
 .introducao-texto-frase {
-  gap: 20px;
+  /* margin-left: 45px; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 35px;
+  grid-column: 1/-1 ;
+  /* gap: 20px; */
 }
 
 @media (max-width: 900px) {
